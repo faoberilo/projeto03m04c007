@@ -20,7 +20,7 @@ import Brinco from './pages/Brinco/Brinco';
 
 
 
-axios.defaults.baseURL = 'http://localhost:3001/';
+axios.defaults.baseURL = 'https://backprojeto03m04c007.herokuapp.com';
 axios.defaults.headers.post['Content-Type'] = 'application/json';
 axios.interceptors.request.use(
   config=>{
